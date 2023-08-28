@@ -195,3 +195,18 @@ form button:hover{
 .btn.active{
     background: #553ff0;
 }
+
+@media (max-width: 991px){
+    .gallery img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 450px){
+    .product{
+        display: block;
+        padding: 20px;
+        
+    }
+}
